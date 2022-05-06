@@ -19,6 +19,11 @@ public class Book {
     public Book(String isbn){
         this.isbn = isbn;
     }
+
+    public Book(String isbn, String title){
+        this.isbn = isbn;
+        this.title = title;
+    }
     public Book(String isbn, String title, String author, String publisher, String type) {
         this.id = number;
         this.isbn = isbn;
